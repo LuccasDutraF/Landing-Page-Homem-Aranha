@@ -98,7 +98,7 @@ header button:hover{
 .s-hero{
     position: relative;
     width: 100%;
-    background: url(../img/background-hero.jpg);
+    background: url(../assets/background-hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -329,7 +329,7 @@ header button:hover{
 
 .s-videos .card-video .thumbnail::before{
     content: "";
-    background: url('/img/mask-hover.svg')no-repeat center center ;
+    background: url('/assets/mask-hover.svg')no-repeat center center ;
     width: 39.1rem;
     height: 22.2rem;
     position: absolute;
@@ -493,7 +493,7 @@ footer:before{
     content:"" ;
     width: 100%;
     height:1.6rem;
-    background: url('../img/Divider.svg') no-repeat center center; 
+    background: url('../assets/Divider.svg') no-repeat center center; 
     position: absolute;
     top: 0;
 }
@@ -538,37 +538,37 @@ footer .right span{
 
 @keyframes changeBG{
     0%{
-        background-image: url('/img/bg/01.jpg');
+        background-image: url('/assets/bg/01.jpg');
     }
     10%{
-        background-image: url('/img/bg/02.jpg');
+        background-image: url('/assets/bg/02.jpg');
     }
     20%{
-        background-image: url('/img/bg/03.jpg');
+        background-image: url('/assets/bg/03.jpg');
     }
     30%{
-        background-image: url('/img/bg/04.jpg');
+        background-image: url('/assets/bg/04.jpg');
     }
     40%{
-        background-image: url('/img/bg/05.jpg');
+        background-image: url('/assets/bg/05.jpg');
     }
     50%{
-        background-image: url('/img/bg/08.jpg');
+        background-image: url('/assets/bg/08.jpg');
     }
     60%{
-        background-image: url('/img/bg/09.jpg');
+        background-image: url('/assets/bg/09.jpg');
     }
     70%{
-        background-image: url('/img/bg/010.jpg');
+        background-image: url('/assets/bg/010.jpg');
     }
     80%{
-        background-image: url('/img/bg/011.jpg');
+        background-image: url('/assets/bg/011.jpg');
     }
     90%{
-        background-image: url('/img/bg/012.jpg');
+        background-image: url('/assets/bg/012.jpg');
     }
     100%{
-        background-image: url('/img/bg/01.jpg');
+        background-image: url('/assets/bg/01.jpg');
     }
 }
 
